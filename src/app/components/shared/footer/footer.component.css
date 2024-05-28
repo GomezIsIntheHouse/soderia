@@ -1,0 +1,91 @@
+.footer{
+    position: fixed;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    background: rgb(81, 28, 41);
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;   
+
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.contenido{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.main-container{
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    /* background: #333; */
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;  
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+}
+.container i{
+    margin-left: 10px;
+    cursor: pointer;
+    /* justify-content: end; */
+}
+.footer-text{
+    font-size: 10px;
+}
+
+.css-button-3d--grey {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #6c757d;
+    box-shadow: 0 5px #495057;
+  }
+  .css-button-3d--grey:hover {
+    box-shadow: 0 3px #495057;
+    top: 1px;
+  }
+  .css-button-3d--grey:active {
+    box-shadow: 0 0 #495057;
+    top: 5px;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .custom-form{
+    margin: 3px;
+  }
+
+  label{
+    font-size: clamp(1rem, 2vw, 2rem);
+    color: #bcb9b9;
+    height: 20px;
+  }

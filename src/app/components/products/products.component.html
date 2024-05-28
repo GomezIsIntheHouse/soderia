@@ -1,0 +1,13 @@
+<h1>Productos <small>Sodería Los Primos</small></h1>
+<hr>
+
+
+<div class="custom-card" >
+
+
+  <app-product-card class="product-card" (productoSeleccionado)="verProducto( $event )" 
+                    [producto]="foo" [index]="i"  *ngFor="let foo of productos; let i = index">
+  </app-product-card>
+
+
+</div>

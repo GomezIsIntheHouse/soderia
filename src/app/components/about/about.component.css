@@ -1,0 +1,96 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 0 0 0 5%;
+}
+/* .contenedor-redondo{
+    background-color: black;
+} */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    color: white;
+    background: rgba( 8, 10, 11, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 10px;
+}
+.card-body {
+    margin: 0 100px 0 20px;    
+}
+
+.carousel{
+    margin-top: 3%;
+    /* height: 700px; */
+}
+
+.text-header{
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: #bcb9b9;
+}
+
+.css-button-3d--sand {
+    
+    min-width: 130px;
+    height: 40px;
+    color: #ddd8d8;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #4187cd;
+    box-shadow: 0 5px #adb5bd;
+  }
+  .css-button-3d--sand:hover {
+    box-shadow: 0 3px #adb5bd;
+    top: 1px;
+  }
+  .css-button-3d--sand:active {
+    box-shadow: 0 0 #adb5bd;
+    top: 5px;
+  }
+
+  .button-container{
+    display: flex;
+    align-self: center;
+  }
+
+  @media(max-width: 800px){
+    .content-card{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse
+
+
+    }
+
+    .css-button-3d--sand{
+        background-color: #04305c;
+    }
+  }

@@ -1,0 +1,32 @@
+.css-button-3d--sand {
+    min-width: 80px;
+    height: 40px;
+    color: #ddd8d8;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #4187cd;
+    box-shadow: 0 5px #adb5bd;
+  }
+  .css-button-3d--sand:hover {
+    box-shadow: 0 3px #adb5bd;
+    top: 1px;
+  }
+  .css-button-3d--sand:active {
+    box-shadow: 0 0 #adb5bd;
+    top: 5px;
+  }
+
+  .back{
+    background: rgba( 8, 10, 11, 0.5 )!important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )!important;
+    backdrop-filter: blur( 10.5px )!important;
+    -webkit-backdrop-filter: blur( 10.5px )!important;
+    
+  }

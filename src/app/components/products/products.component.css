@@ -1,0 +1,18 @@
+.custom-card{
+     
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 10rem;
+    
+}
+
+.product-card{
+    margin: 20px;
+}
+
+@media(max-width:800px){
+    .product-card{
+    margin: 3px;
+}
+}

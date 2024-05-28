@@ -1,0 +1,16 @@
+<div class="card animated fadeIn fast" >
+    <!-- style="width: 18rem;" -->
+    <img class="card-img-top img-fluid image" [src]="producto.img" [alt]="producto.nombre"  >
+    <div class="card-body">
+      <h4 class="card-title">{{ producto.nombre | slice: 0 : 12 }}</h4>
+      <p class="card-text"> {{ producto.bio | slice: 0 : 40 }}  </p>
+      <p class="card-text"><small class="text-muted">{{ producto.capacidad }}</small></p>
+  
+      <button (click)="verProducto()"
+        type="button" class="btn btn-outline-primary btn-block">
+        Ver más...
+      </button>
+      <!-- <a [routerLink]="['/heroe',i]" class="btn btn-outline-primary">Ver más link...</a> -->
+  
+    </div>
+</div>
